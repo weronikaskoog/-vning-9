@@ -12,6 +12,7 @@ namespace övning_9
         static int vinnarY;
         static void Main(string[] args)
         {
+            // Skapa spelplan
             string[,] gamePlan = SkapaSpelplan();
             SlumpPosition(gamePlan);
             RitaSpelplanTillSkärmen(gamePlan);
